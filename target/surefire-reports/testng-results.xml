@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="56972" started-at="2020-07-28T13:23:04 IST" finished-at="2020-07-28T13:24:01 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="56972" started-at="2020-07-28T13:23:04 IST" finished-at="2020-07-28T13:24:01 IST">
+      <class name="com.shopizer.qa.testcases.LoginLogoutTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopizer.qa.testcases.LoginLogoutTest@7f13d6e]" name="setUp" is-config="true" duration-ms="7315" started-at="2020-07-28T13:23:18 IST" finished-at="2020-07-28T13:23:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginUser()[pri:0, instance:com.shopizer.qa.testcases.LoginLogoutTest@7f13d6e]" name="verifyLoginUser" duration-ms="10403" started-at="2020-07-28T13:23:26 IST" finished-at="2020-07-28T13:23:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginUser -->
+        <test-method status="PASS" signature="tearDownEnvironment()[pri:0, instance:com.shopizer.qa.testcases.LoginLogoutTest@7f13d6e]" name="tearDownEnvironment" is-config="true" duration-ms="4425" started-at="2020-07-28T13:23:36 IST" finished-at="2020-07-28T13:23:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownEnvironment -->
+      </class> <!-- com.shopizer.qa.testcases.LoginLogoutTest -->
+      <class name="com.shopizer.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopizer.qa.testcases.HomePageTest@71bbf57e]" name="setUp" is-config="true" duration-ms="9158" started-at="2020-07-28T13:23:04 IST" finished-at="2020-07-28T13:23:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:2, instance:com.shopizer.qa.testcases.HomePageTest@71bbf57e]" name="verifyHomePageTitle" duration-ms="380" started-at="2020-07-28T13:23:13 IST" finished-at="2020-07-28T13:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="tearDownEnvironment()[pri:0, instance:com.shopizer.qa.testcases.HomePageTest@71bbf57e]" name="tearDownEnvironment" is-config="true" duration-ms="4391" started-at="2020-07-28T13:23:14 IST" finished-at="2020-07-28T13:23:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownEnvironment -->
+      </class> <!-- com.shopizer.qa.testcases.HomePageTest -->
+      <class name="com.shopizer.qa.testcases.SignUpTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopizer.qa.testcases.SignUpTest@51cdd8a]" name="setUp" is-config="true" duration-ms="7872" started-at="2020-07-28T13:23:41 IST" finished-at="2020-07-28T13:23:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.shopizer.qa.testcases.SignUpTest@51cdd8a]" name="verifyRegistration" duration-ms="7757" started-at="2020-07-28T13:23:49 IST" data-provider="getCRMTestData" finished-at="2020-07-28T13:23:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pramod]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deshmane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7972191713]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rekhadeshmane7@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Anaya@143]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Anaya@143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistration -->
+        <test-method status="PASS" signature="tearDownEnvironment()[pri:0, instance:com.shopizer.qa.testcases.SignUpTest@51cdd8a]" name="tearDownEnvironment" is-config="true" duration-ms="4149" started-at="2020-07-28T13:23:57 IST" finished-at="2020-07-28T13:24:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownEnvironment -->
+      </class> <!-- com.shopizer.qa.testcases.SignUpTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

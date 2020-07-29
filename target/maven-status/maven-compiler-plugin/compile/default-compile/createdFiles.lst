@@ -1,0 +1,7 @@
+com\shopizer\qa\pages\LoginPage.class
+com\shopizer\qa\testbase\BaseTest.class
+com\shopizer\qa\utility\WebEventListener.class
+com\shopizer\qa\pages\HomePage.class
+com\shopizer\qa\utility\TestUtil.class
+com\shopize\qa\extentReportListener\ExtentReportListener.class
+com\shopizer\qa\pages\SignupPage.class

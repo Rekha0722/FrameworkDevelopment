@@ -1,0 +1,3 @@
+com\shopizer\qa\testcases\LoginLogoutTest.class
+com\shopizer\qa\testcases\SignUpTest.class
+com\shopizer\qa\testcases\HomePageTest.class
