@@ -1,0 +1,177 @@
+{
+  "uid" : "a1d934eb662f962c",
+  "name" : "Clicking onWomen dropdown from Home Page",
+  "fullName" : "com.shopizer.qa.testcases.WomenTestCase.clickOnWomenDropdown",
+  "historyId" : "ae10db5317bc25bc0e20f20c7d894588",
+  "time" : {
+    "start" : 1596365896336,
+    "stop" : 1596365900720,
+    "duration" : 4384
+  },
+  "description" : "Check Women dropdown is clicked or not",
+  "descriptionHtml" : "<p>Check Women dropdown is clicked or not</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1596365885479,
+      "stop" : 1596365895810,
+      "duration" : 10331
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Check Women dropdown is clicked or not",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "click on women dropdown",
+      "time" : {
+        "start" : 1596365896388,
+        "stop" : 1596365900707,
+        "duration" : 4319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDownEnvironment",
+    "time" : {
+      "start" : 1596365900746,
+      "stop" : 1596365905361,
+      "duration" : 4615
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnWomenDropdown"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N6RMJT6"
+  }, {
+    "name" : "thread",
+    "value" : "24664@DESKTOP-N6RMJT6.TestNG-tests-1(13)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "To check  women dropdown is clicked or not"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3e933326fe26c96a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596363108862,
+        "stop" : 1596363114309,
+        "duration" : 5447
+      }
+    }, {
+      "uid" : "de331d5b8be94eea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596338802275,
+        "stop" : 1596338807771,
+        "duration" : 5496
+      }
+    }, {
+      "uid" : "82ed6840d7245317",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596338403343,
+        "stop" : 1596338406395,
+        "duration" : 3052
+      }
+    }, {
+      "uid" : "a2de3ef24745c7b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596304289114,
+        "stop" : 1596304292415,
+        "duration" : 3301
+      }
+    }, {
+      "uid" : "e858a9249e42855d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596302971178,
+        "stop" : 1596302975022,
+        "duration" : 3844
+      }
+    }, {
+      "uid" : "bba6f6ae32578e33",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596302723724,
+        "stop" : 1596302723732,
+        "duration" : 8
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1d934eb662f962c.json",
+  "parameterValues" : [ ]
+}

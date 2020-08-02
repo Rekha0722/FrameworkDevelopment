@@ -1,0 +1,103 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.shopizer.qa.testcases",
+    "children" : [ {
+      "name" : "WomenTestCase",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "93585204b6257b69",
+        "parentUid" : "91bfec83ccee076a15064a9393112f74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596302723691,
+          "stop" : 1596302723693,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickOnWomenDropdown",
+        "uid" : "a1d934eb662f962c",
+        "parentUid" : "91bfec83ccee076a15064a9393112f74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596365896336,
+          "stop" : 1596365900720,
+          "duration" : 4384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyWomenDropDown",
+        "uid" : "a537ca99b195319b",
+        "parentUid" : "91bfec83ccee076a15064a9393112f74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596365949308,
+          "stop" : 1596365952342,
+          "duration" : 3034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "91bfec83ccee076a15064a9393112f74"
+    }, {
+      "name" : "HomePageTest",
+      "children" : [ {
+        "name" : "verifyHomePageTitle",
+        "uid" : "4aaae9748bf7e75f",
+        "parentUid" : "e33900878f12d9a377f0d4caf65a12d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596365914737,
+          "stop" : 1596365915209,
+          "duration" : 472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e33900878f12d9a377f0d4caf65a12d5"
+    }, {
+      "name" : "LoginLogoutTest",
+      "children" : [ {
+        "name" : "verifyLoginUser",
+        "uid" : "6525aef02a1915a9",
+        "parentUid" : "13a4796aa17023afda0b246ec5980c54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596365926037,
+          "stop" : 1596365940544,
+          "duration" : 14507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "13a4796aa17023afda0b246ec5980c54"
+    }, {
+      "name" : "SignUpTest",
+      "children" : [ {
+        "name" : "verifyRegistration",
+        "uid" : "4a8befe5d2803d0a",
+        "parentUid" : "29f56098f9cbffdbfffa7e782ec22698",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596365962272,
+          "stop" : 1596365971042,
+          "duration" : 8770
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pramod", "Deshmane", "7972191713", "rekhadeshmane7@gmail.com", "Anaya@143", "Anaya@143" ]
+      } ],
+      "uid" : "29f56098f9cbffdbfffa7e782ec22698"
+    } ],
+    "uid" : "com.shopizer.qa.testcases"
+  } ]
+}

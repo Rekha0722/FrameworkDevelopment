@@ -1,71 +1,343 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="TestSuite" time="18.551" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="184.635" tests="7" errors="0" skipped="2" failures="2">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
-    <property name="java.vm.version" value="25.251-b08"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="F:\UdymeSelenium\FrameworkDevelopment"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="F:\UdymeSelenium\FrameworkDevelopment\Drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\UdymeSelenium\FrameworkDevelopment\target\test-classes;F:\UdymeSelenium\FrameworkDevelopment\target\classes;C:\Users\hp\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hp\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\hp\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\hp\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\hp\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-3\selenium-java-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-3\selenium-api-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-3\selenium-chrome-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-3\selenium-chromium-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-3\selenium-devtools-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-3\selenium-http-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-3\selenium-json-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-3\selenium-edge-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-3\selenium-edgehtml-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-3\selenium-firefox-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-3\selenium-firefox-xpi-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-3\selenium-ie-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-3\selenium-opera-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-3\selenium-remote-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\com\squareup\okhttp3\okhttp\4.0.1\okhttp-4.0.1.jar;C:\Users\hp\.m2\repository\com\squareup\okio\okio\2.2.2\okio-2.2.2.jar;C:\Users\hp\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.40\kotlin-stdlib-1.3.40.jar;C:\Users\hp\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.40\kotlin-stdlib-common-1.3.40.jar;C:\Users\hp\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\hp\.m2\repository\io\opentracing\opentracing-api\0.33.0\opentracing-api-0.33.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-3\selenium-safari-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-3\selenium-support-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-scratchpad\4.1.2\poi-scratchpad-4.1.2.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-excelant\4.1.2\poi-excelant-4.1.2.jar;C:\Users\hp\.m2\repository\org\apache\ant\ant\1.8.2\ant-1.8.2.jar;C:\Users\hp\.m2\repository\org\apache\ant\ant-launcher\1.8.2\ant-launcher-1.8.2.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\hp\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\hp\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\hp\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hp\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\hp\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\hp\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\hp\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-testng\2.13.3\allure-testng-2.13.3.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-java-commons\2.13.3\allure-java-commons-2.13.3.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-model\2.13.3\allure-model-2.13.3.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\hp\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\hp\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="F:\UdymeSelenium\FrameworkDevelopment"/>
-    <property name="java.runtime.version" value="1.8.0_251-b08"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\FrameworkMaven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_251\bin;C:\FrameworkMaven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;;."/>
-    <property name="maven.conf" value="C:\FrameworkMaven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\FrameworkMaven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\hp"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="hp"/>
-    <property name="java.class.path" value="C:\FrameworkMaven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_251"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\FrameworkMaven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire7952682722493774928\surefirebooter3645842066205400279.jar C:\Users\hp\AppData\Local\Temp\surefire7952682722493774928 2020-08-02T22-06-15_914-jvmRun1 surefire4048422044728628554tmp surefire_07187708526281496432tmp"/>
+    <property name="surefire.test.class.path" value="F:\UdymeSelenium\FrameworkDevelopment\target\test-classes;F:\UdymeSelenium\FrameworkDevelopment\target\classes;C:\Users\hp\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hp\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\hp\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\hp\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\hp\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-3\selenium-java-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-3\selenium-api-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-3\selenium-chrome-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-3\selenium-chromium-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-3\selenium-devtools-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-3\selenium-http-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-3\selenium-json-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-3\selenium-edge-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-3\selenium-edgehtml-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-3\selenium-firefox-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-3\selenium-firefox-xpi-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-3\selenium-ie-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-3\selenium-opera-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-3\selenium-remote-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\com\squareup\okhttp3\okhttp\4.0.1\okhttp-4.0.1.jar;C:\Users\hp\.m2\repository\com\squareup\okio\okio\2.2.2\okio-2.2.2.jar;C:\Users\hp\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.40\kotlin-stdlib-1.3.40.jar;C:\Users\hp\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.40\kotlin-stdlib-common-1.3.40.jar;C:\Users\hp\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\hp\.m2\repository\io\opentracing\opentracing-api\0.33.0\opentracing-api-0.33.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-3\selenium-safari-driver-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-3\selenium-support-4.0.0-alpha-3.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-scratchpad\4.1.2\poi-scratchpad-4.1.2.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-excelant\4.1.2\poi-excelant-4.1.2.jar;C:\Users\hp\.m2\repository\org\apache\ant\ant\1.8.2\ant-1.8.2.jar;C:\Users\hp\.m2\repository\org\apache\ant\ant-launcher\1.8.2\ant-launcher-1.8.2.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\hp\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\hp\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\hp\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hp\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\hp\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\hp\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\hp\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-testng\2.13.3\allure-testng-2.13.3.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-java-commons\2.13.3\allure-java-commons-2.13.3.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-model\2.13.3\allure-model-2.13.3.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\hp\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\hp\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hp"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="basedir" value="F:\UdymeSelenium\FrameworkDevelopment"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire7952682722493774928\surefirebooter3645842066205400279.jar;C:\Users\hp\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="hp"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\hp\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="F:\UdymeSelenium\FrameworkDevelopment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\hp\scoop\shims;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_251\bin;C:\FrameworkMaven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase classname="com.shopizer.qa.testcases.HomePageTest" name="verifyHomePageTitle" time="0.383"/>
-  <testcase classname="com.shopizer.qa.testcases.LoginLogoutTest" name="verifyLoginUser" time="10.406"/>
-  <testcase classname="com.shopizer.qa.testcases.SignUpTest" name="verifyRegistration" time="7.762"/>
+  <testcase name="clickOnWomenDropdown" classname="com.shopizer.qa.testcases.WomenTestCase" time="6.413">
+    <system-out><![CDATA[I am in onStart method Test
+08-02-2020 22:06:23 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 69 - Launching Browser
+08-02-2020 22:06:32 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 93 - Maximize  window
+08-02-2020 22:06:34 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 98 - ******************************loading url**********************************
+Before navigating to: 'https://www.fabindia.com/'
+Navigated to:'https://www.fabindia.com/'
+08-02-2020 22:06:35 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 101 - 
+I am in onStart method Test
+08-02-2020 22:06:35 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 69 - Launching Browser
+08-02-2020 22:06:39 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 93 - Maximize  window
+08-02-2020 22:06:41 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 98 - ******************************loading url**********************************
+Before navigating to: 'https://www.fabindia.com/'
+Navigated to:'https://www.fabindia.com/'
+08-02-2020 22:06:43 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 101 - 
+08-02-2020 22:06:43 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 69 - Launching Browser
+08-02-2020 22:06:48 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 93 - Maximize  window
+08-02-2020 22:06:50 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 98 - ******************************loading url**********************************
+Before navigating to: 'https://www.fabindia.com/'
+Navigated to:'https://www.fabindia.com/'
+08-02-2020 22:06:53 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 101 - 
+I am in onTestStart method clickOnWomenDropdown start
+I am in onTestStart method clickOnWomenDropdown start
+Trying to find Element By : By.id: cat100298
+Found Element By : By.id: cat100298
+Trying to find Element By : By.id: cat100298
+Found Element By : By.id: cat100298
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (5b393db89bf9c75735665b558a6dee4b)] -> id: cat100298]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (5b393db89bf9c75735665b558a6dee4b)] -> id: cat100298]
+I am in onTestSuccess method clickOnWomenDropdown succeed
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 44538
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596386189.928][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 02, 2020 10:06:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 9587
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596386197.273][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 02, 2020 10:06:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 14266
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596386205.649][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 02, 2020 10:06:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyWomenDropDown" classname="com.shopizer.qa.testcases.WomenTestCase" time="2.616">
+    <system-out><![CDATA[I am in onTestFailure method verifyLoginUser failed
+08-02-2020 22:08:29 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 69 - Launching Browser
+08-02-2020 22:08:34 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 93 - Maximize  window
+08-02-2020 22:08:37 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 98 - ******************************loading url**********************************
+Before navigating to: 'https://www.fabindia.com/'
+Navigated to:'https://www.fabindia.com/'
+08-02-2020 22:08:39 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 101 - 
+Screenshot captured for test case:verifyLoginUser
+08-02-2020 22:08:41 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 69 - Launching Browser
+08-02-2020 22:08:46 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 93 - Maximize  window
+08-02-2020 22:08:48 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 98 - ******************************loading url**********************************
+Before navigating to: 'https://www.fabindia.com/'
+Navigated to:'https://www.fabindia.com/'
+08-02-2020 22:08:50 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 101 - 
+I am in onTestStart method verifyWomenDropDown start
+I am in onTestStart method verifyWomenDropDown start
+Trying to find Element By : By.id: cat100298
+Found Element By : By.id: cat100298
+Trying to find Element By : By.id: cat100298
+Found Element By : By.id: cat100298
+I am in onTestSuccess method verifyWomenDropDown succeed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 22443
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596386312.468][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 02, 2020 10:08:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 36353
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596386323.864][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 02, 2020 10:08:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.shopizer.qa.testcases.HomePageTest" time="35.182">
+    <failure message="timeout: Timed out receiving message from renderer: -0.001&#10;  (Session info: chrome=84.0.4147.105)&#10;Build info: version: &apos;4.0.0-alpha-3&apos;, revision: &apos;8c567de6dc&apos;&#10;System info: host: &apos;DESKTOP-N6RMJT6&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 841a3348bd697986a82195451948dcc2" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'DESKTOP-N6RMJT6', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 841a3348bd697986a82195451948dcc2
+	at com.shopizer.qa.testcases.HomePageTest.setUp(HomePageTest.java:44)
+]]></failure>
+    <system-out><![CDATA[I am in onTestSuccess method clickOnWomenDropdown succeed
+08-02-2020 22:07:01 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 69 - Launching Browser
+08-02-2020 22:07:05 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 93 - Maximize  window
+08-02-2020 22:07:08 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 98 - ******************************loading url**********************************
+Before navigating to: 'https://www.fabindia.com/'
+Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'DESKTOP-N6RMJT6', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 841a3348bd697986a82195451948dcc2
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 3252
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596386223.629][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 02, 2020 10:07:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1596386248.179][SEVERE]: Timed out receiving message from renderer: 20.000
+[1596386248.180][SEVERE]: Timed out receiving message from renderer: -0.001
+[1596386248.193][SEVERE]: Timed out receiving message from renderer: -0.001
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageTitle" classname="com.shopizer.qa.testcases.HomePageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: -0.001&#10;  (Session info: chrome=84.0.4147.105)&#10;Build info: version: &apos;4.0.0-alpha-3&apos;, revision: &apos;8c567de6dc&apos;&#10;System info: host: &apos;DESKTOP-N6RMJT6&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 841a3348bd697986a82195451948dcc2"/>
+    <system-out><![CDATA[I am in onTestStart method verifyHomePageTitle start
+I am in onTestStart method verifyHomePageTitle start
+I am in onTestSkipped method verifyHomePageTitle skipped
+]]></system-out>
+  </testcase>
+  <testcase name="tearDownEnvironment" classname="com.shopizer.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[I am in onTestSkipped method verifyHomePageTitle skipped
+]]></system-out>
+  </testcase>
+  <testcase name="verifyLoginUser" classname="com.shopizer.qa.testcases.LoginLogoutTest" time="52.495">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class=&apos;customer_points_container&apos;]//spa (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class='customer_points_container']//spa (tried for 30 second(s) with 500 milliseconds interval)
+	at com.shopizer.qa.testcases.LoginLogoutTest.verifyLoginUser(LoginLogoutTest.java:54)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='customer_points_container']//spa"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'DESKTOP-N6RMJT6', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cd1d0a2b318ee8bba951ef7ffddc05d8
+*** Element info: {Using=xpath, value=//a[@class='customer_points_container']//spa}
+	at com.shopizer.qa.testcases.LoginLogoutTest.verifyLoginUser(LoginLogoutTest.java:54)
+]]></failure>
+    <system-out><![CDATA[08-02-2020 22:07:29 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 69 - Launching Browser
+08-02-2020 22:07:34 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 93 - Maximize  window
+08-02-2020 22:07:36 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 98 - ******************************loading url**********************************
+Before navigating to: 'https://www.fabindia.com/'
+Navigated to:'https://www.fabindia.com/'
+08-02-2020 22:07:37 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 101 - 
+I am in onTestStart method verifyLoginUser start
+I am in onTestStart method verifyLoginUser start
+Trying to find Element By : By.xpath: //a[@id='CC-loginHeader-login']
+Found Element By : By.xpath: //a[@id='CC-loginHeader-login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cd1d0a2b318ee8bba951ef7ffddc05d8)] -> xpath: //a[@id='CC-loginHeader-login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cd1d0a2b318ee8bba951ef7ffddc05d8)] -> xpath: //a[@id='CC-loginHeader-login']]
+Trying to find Element By : By.xpath: //h3[contains(text(),'Sign In')]
+Found Element By : By.xpath: //h3[contains(text(),'Sign In')]
+Trying to find Element By : By.xpath: //input[@id='CC-login-input']
+Found Element By : By.xpath: //input[@id='CC-login-input']
+Trying to find Element By : By.xpath: //input[@id='CC-login-password-input']
+Found Element By : By.xpath: //input[@id='CC-login-password-input']
+Trying to find Element By : By.xpath: //button[@id='CC-userLoginSubmit']
+Found Element By : By.xpath: //button[@id='CC-userLoginSubmit']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (cd1d0a2b318ee8bba951ef7ffddc05d8)] -> xpath: //button[@id='CC-userLoginSubmit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (cd1d0a2b318ee8bba951ef7ffddc05d8)] -> xpath: //button[@id='CC-userLoginSubmit']]
+Trying to find Element By : By.xpath: //a[@class='customer_points_container']//spa
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='customer_points_container']//spa"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'DESKTOP-N6RMJT6', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cd1d0a2b318ee8bba951ef7ffddc05d8
+*** Element info: {Using=xpath, value=//a[@class='customer_points_container']//spa}
+Trying to find Element By : By.xpath: //a[@class='customer_points_container']//spa
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='customer_points_container']//spa"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'DESKTOP-N6RMJT6', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cd1d0a2b318ee8bba951ef7ffddc05d8
+*** Element info: {Using=xpath, value=//a[@class='customer_points_container']//spa}
+Trying to find Element By : By.xpath: //a[@class='customer_points_container']//spa
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='customer_points_container']//spa"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'DESKTOP-N6RMJT6', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cd1d0a2b318ee8bba951ef7ffddc05d8
+*** Element info: {Using=xpath, value=//a[@class='customer_points_container']//spa}
+I am in onTestFailure method verifyLoginUser failed
+08-02-2020 22:08:22 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 69 - Launching Browser
+08-02-2020 22:08:25 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 93 - Maximize  window
+08-02-2020 22:08:28 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 98 - ******************************loading url**********************************
+Before navigating to: 'https://www.fabindia.com/'
+Navigated to:'https://www.fabindia.com/'
+08-02-2020 22:08:29 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 101 - 
+Screenshot captured for test case:verifyLoginUser
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 17900
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596386252.035][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 02, 2020 10:07:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 6629
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596386303.816][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 02, 2020 10:08:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyRegistration[Pramod, Deshmane, 7972191713, rekhadeshmane7@gmail.com, Anaya@143, Anaya@143](1)" classname="com.shopizer.qa.testcases.SignUpTest" time="12.75">
+    <system-out><![CDATA[I am in onTestSuccess method verifyWomenDropDown succeed
+08-02-2020 22:08:58 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 69 - Launching Browser
+08-02-2020 22:09:03 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 93 - Maximize  window
+08-02-2020 22:09:06 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 98 - ******************************loading url**********************************
+Before navigating to: 'https://www.fabindia.com/'
+Navigated to:'https://www.fabindia.com/'
+08-02-2020 22:09:07 BaseTest.java INFO  [TestNG-tests-1] testbase.BaseTest 101 - 
+I am in onTestStart method verifyRegistration start
+I am in onTestStart method verifyRegistration start
+Trying to find Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Found Element By : By.xpath: //a[contains(text(),'Sign Up')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (932890ed3c9bf68049a1e326383fd8f8)] -> xpath: //a[contains(text(),'Sign Up')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (932890ed3c9bf68049a1e326383fd8f8)] -> xpath: //a[contains(text(),'Sign Up')]]
+Trying to find Element By : By.xpath: //h3[contains(text(),'Sign Up')]
+Found Element By : By.xpath: //h3[contains(text(),'Sign Up')]
+Trying to find Element By : By.xpath: //input[@id='CC-userRegistration-firstname']
+Found Element By : By.xpath: //input[@id='CC-userRegistration-firstname']
+Trying to find Element By : By.xpath: //input[@id='CC-userRegistration-lastname']
+Found Element By : By.xpath: //input[@id='CC-userRegistration-lastname']
+Trying to find Element By : By.xpath: //input[@id='CC-userRegistration-signupPhoneNum']
+Found Element By : By.xpath: //input[@id='CC-userRegistration-signupPhoneNum']
+Trying to find Element By : By.xpath: //input[@id='CC-userRegistration-emailAddress']
+Found Element By : By.xpath: //input[@id='CC-userRegistration-emailAddress']
+Trying to find Element By : By.xpath: //input[@id='CC-userRegistration-password']
+Found Element By : By.xpath: //input[@id='CC-userRegistration-password']
+Trying to find Element By : By.xpath: //input[@id='CC-userRegistration-confirmPassword']
+Found Element By : By.xpath: //input[@id='CC-userRegistration-confirmPassword']
+Trying to find Element By : By.xpath: //button[@id='CC-userRegistrationSubmit']
+Found Element By : By.xpath: //button[@id='CC-userRegistrationSubmit']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (932890ed3c9bf68049a1e326383fd8f8)] -> xpath: //button[@id='CC-userRegistrationSubmit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (932890ed3c9bf68049a1e326383fd8f8)] -> xpath: //button[@id='CC-userRegistrationSubmit']]
+I am in onTestSuccess method verifyRegistration succeed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 40599
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596386341.625][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Aug 02, 2020 10:09:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
 </testsuite>

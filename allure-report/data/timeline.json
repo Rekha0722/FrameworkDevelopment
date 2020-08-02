@@ -1,0 +1,375 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-N6RMJT6",
+    "children" : [ {
+      "name" : "20736@DESKTOP-N6RMJT6.TestNG-tests-1(13)",
+      "children" : [ {
+        "name" : "verifyRegistration",
+        "uid" : "234aff8ba75ffe24",
+        "parentUid" : "314dd3cc2ca0e6cee7175dda1cbba764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596338876007,
+          "stop" : 1596338884929,
+          "duration" : 8922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pramod", "Deshmane", "7972191713", "rekhadeshmane7@gmail.com", "Anaya@143", "Anaya@143" ]
+      }, {
+        "name" : "Verifying title from Home page",
+        "uid" : "7c2b771357870a87",
+        "parentUid" : "314dd3cc2ca0e6cee7175dda1cbba764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596338820272,
+          "stop" : 1596338820858,
+          "duration" : 586
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying login ",
+        "uid" : "a822cd40a2c1dae1",
+        "parentUid" : "314dd3cc2ca0e6cee7175dda1cbba764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596338834831,
+          "stop" : 1596338846500,
+          "duration" : 11669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifying onWomen dropdown from Home Page",
+        "uid" : "67cd3db4d5ca4f42",
+        "parentUid" : "314dd3cc2ca0e6cee7175dda1cbba764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596338859103,
+          "stop" : 1596338861638,
+          "duration" : 2535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Clicking onWomen dropdown from Home Page",
+        "uid" : "de331d5b8be94eea",
+        "parentUid" : "314dd3cc2ca0e6cee7175dda1cbba764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596338802275,
+          "stop" : 1596338807771,
+          "duration" : 5496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "314dd3cc2ca0e6cee7175dda1cbba764"
+    }, {
+      "name" : "24664@DESKTOP-N6RMJT6.TestNG-tests-1(13)",
+      "children" : [ {
+        "name" : "Verifying login ",
+        "uid" : "6525aef02a1915a9",
+        "parentUid" : "9b4901fac1dbd31c0e27bdaaf0e42353",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596365926037,
+          "stop" : 1596365940544,
+          "duration" : 14507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifying onWomen dropdown from Home Page",
+        "uid" : "a537ca99b195319b",
+        "parentUid" : "9b4901fac1dbd31c0e27bdaaf0e42353",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596365949308,
+          "stop" : 1596365952342,
+          "duration" : 3034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying title from Home page",
+        "uid" : "4aaae9748bf7e75f",
+        "parentUid" : "9b4901fac1dbd31c0e27bdaaf0e42353",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596365914737,
+          "stop" : 1596365915209,
+          "duration" : 472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Clicking onWomen dropdown from Home Page",
+        "uid" : "a1d934eb662f962c",
+        "parentUid" : "9b4901fac1dbd31c0e27bdaaf0e42353",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596365896336,
+          "stop" : 1596365900720,
+          "duration" : 4384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyRegistration",
+        "uid" : "4a8befe5d2803d0a",
+        "parentUid" : "9b4901fac1dbd31c0e27bdaaf0e42353",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596365962272,
+          "stop" : 1596365971042,
+          "duration" : 8770
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pramod", "Deshmane", "7972191713", "rekhadeshmane7@gmail.com", "Anaya@143", "Anaya@143" ]
+      } ],
+      "uid" : "9b4901fac1dbd31c0e27bdaaf0e42353"
+    }, {
+      "name" : "19880@DESKTOP-N6RMJT6.main(1)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "93585204b6257b69",
+        "parentUid" : "97de9c4038dd60b0a7cb926f616a8a3c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596302723691,
+          "stop" : 1596302723693,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifying onWomen dropdown from Home Page",
+        "uid" : "28e87f5c8a57b566",
+        "parentUid" : "97de9c4038dd60b0a7cb926f616a8a3c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1596302723758,
+          "stop" : 1596302723760,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Clicking onWomen dropdown from Home Page",
+        "uid" : "bba6f6ae32578e33",
+        "parentUid" : "97de9c4038dd60b0a7cb926f616a8a3c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1596302723724,
+          "stop" : 1596302723732,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "97de9c4038dd60b0a7cb926f616a8a3c"
+    }, {
+      "name" : "23112@DESKTOP-N6RMJT6.TestNG-tests-1(13)",
+      "children" : [ {
+        "name" : "Clicking onWomen dropdown from Home Page",
+        "uid" : "82ed6840d7245317",
+        "parentUid" : "28c53efa59284f7f6352bd3035996aeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596338403343,
+          "stop" : 1596338406395,
+          "duration" : 3052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifying onWomen dropdown from Home Page",
+        "uid" : "4993052d1d526d49",
+        "parentUid" : "28c53efa59284f7f6352bd3035996aeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596338438321,
+          "stop" : 1596338440368,
+          "duration" : 2047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying login ",
+        "uid" : "28b48e6d522a1290",
+        "parentUid" : "28c53efa59284f7f6352bd3035996aeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596338415211,
+          "stop" : 1596338425687,
+          "duration" : 10476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28c53efa59284f7f6352bd3035996aeb"
+    }, {
+      "name" : "21008@DESKTOP-N6RMJT6.main(1)",
+      "children" : [ {
+        "name" : "Clicking onWomen dropdown from Home Page",
+        "uid" : "e858a9249e42855d",
+        "parentUid" : "83ae1915f4f88287deb4efd23836d39c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596302971178,
+          "stop" : 1596302975022,
+          "duration" : 3844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifying onWomen dropdown from Home Page",
+        "uid" : "bf82da5aed3191ec",
+        "parentUid" : "83ae1915f4f88287deb4efd23836d39c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596302984488,
+          "stop" : 1596302987657,
+          "duration" : 3169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "83ae1915f4f88287deb4efd23836d39c"
+    }, {
+      "name" : "15132@DESKTOP-N6RMJT6.TestNG-tests-1(11)",
+      "children" : [ {
+        "name" : "Verifying login ",
+        "uid" : "edee218d8a9f21cc",
+        "parentUid" : "abac724bdbe4e0b4c28b7c9eebe47a2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596304303709,
+          "stop" : 1596304313777,
+          "duration" : 10068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifying onWomen dropdown from Home Page",
+        "uid" : "d162a294ac704f5d",
+        "parentUid" : "abac724bdbe4e0b4c28b7c9eebe47a2b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596304321337,
+          "stop" : 1596304335587,
+          "duration" : 14250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Clicking onWomen dropdown from Home Page",
+        "uid" : "a2de3ef24745c7b6",
+        "parentUid" : "abac724bdbe4e0b4c28b7c9eebe47a2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596304289114,
+          "stop" : 1596304292415,
+          "duration" : 3301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "abac724bdbe4e0b4c28b7c9eebe47a2b"
+    }, {
+      "name" : "26292@DESKTOP-N6RMJT6.TestNG-tests-1(12)",
+      "children" : [ {
+        "name" : "Verifying title from Home page",
+        "uid" : "980da5709afb1ab1",
+        "parentUid" : "a8dc1a3ec857e7cf6705b54d9181afb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596363125979,
+          "stop" : 1596363126364,
+          "duration" : 385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Clicking onWomen dropdown from Home Page",
+        "uid" : "3e933326fe26c96a",
+        "parentUid" : "a8dc1a3ec857e7cf6705b54d9181afb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596363108862,
+          "stop" : 1596363114309,
+          "duration" : 5447
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying login ",
+        "uid" : "35b771caf6f64e48",
+        "parentUid" : "a8dc1a3ec857e7cf6705b54d9181afb4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596363135745,
+          "stop" : 1596363147594,
+          "duration" : 11849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifying onWomen dropdown from Home Page",
+        "uid" : "34056ac94dc14289",
+        "parentUid" : "a8dc1a3ec857e7cf6705b54d9181afb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596363159235,
+          "stop" : 1596363162115,
+          "duration" : 2880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyRegistration",
+        "uid" : "f6cc984f26e3a63d",
+        "parentUid" : "a8dc1a3ec857e7cf6705b54d9181afb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596363172360,
+          "stop" : 1596363181171,
+          "duration" : 8811
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pramod", "Deshmane", "7972191713", "rekhadeshmane7@gmail.com", "Anaya@143", "Anaya@143" ]
+      } ],
+      "uid" : "a8dc1a3ec857e7cf6705b54d9181afb4"
+    } ],
+    "uid" : "a1c57a16432c35bc370224f4ac671a32"
+  } ]
+}

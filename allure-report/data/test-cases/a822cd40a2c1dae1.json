@@ -1,0 +1,171 @@
+{
+  "uid" : "a822cd40a2c1dae1",
+  "name" : "Verifying login ",
+  "fullName" : "com.shopizer.qa.testcases.LoginLogoutTest.verifyLoginUser",
+  "historyId" : "3522bea7476707aa56669aae8a670332",
+  "time" : {
+    "start" : 1596338834831,
+    "stop" : 1596338846500,
+    "duration" : 11669
+  },
+  "description" : "verify login Page Functionality",
+  "descriptionHtml" : "<p>verify login Page Functionality</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1596338821271,
+      "stop" : 1596338834822,
+      "duration" : 13551
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "verify login Page Functionality",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on SignIn Link From HOme Page",
+      "time" : {
+        "start" : 1596338834831,
+        "stop" : 1596338841318,
+        "duration" : 6487
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify SignInPage Header",
+      "time" : {
+        "start" : 1596338841318,
+        "stop" : 1596338841773,
+        "duration" : 455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Set Email :{0} and Password :{1}",
+      "time" : {
+        "start" : 1596338841775,
+        "stop" : 1596338842683,
+        "duration" : 908
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get Registered user name on Home Page",
+      "time" : {
+        "start" : 1596338842684,
+        "stop" : 1596338846499,
+        "duration" : 3815
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDownEnvironment",
+    "time" : {
+      "start" : 1596338846504,
+      "stop" : 1596338850891,
+      "duration" : 4387
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.shopizer.qa.testcases.LoginLogoutTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.shopizer.qa.testcases.LoginLogoutTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyLoginUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.shopizer.qa.testcases.LoginLogoutTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N6RMJT6"
+  }, {
+    "name" : "thread",
+    "value" : "20736@DESKTOP-N6RMJT6.TestNG-tests-1(13)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Verify login with registered User NAame"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a822cd40a2c1dae1.json",
+  "parameterValues" : [ ]
+}

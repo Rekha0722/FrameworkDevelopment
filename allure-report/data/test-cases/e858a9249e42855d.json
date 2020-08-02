@@ -1,0 +1,97 @@
+{
+  "uid" : "e858a9249e42855d",
+  "name" : "Clicking onWomen dropdown from Home Page",
+  "fullName" : "com.shopizer.qa.testcases.WomenTestCase.clickOnWomenDropdown",
+  "historyId" : "ae10db5317bc25bc0e20f20c7d894588",
+  "time" : {
+    "start" : 1596302971178,
+    "stop" : 1596302975022,
+    "duration" : 3844
+  },
+  "description" : "Check Women dropdown is clicked or not",
+  "descriptionHtml" : "<p>Check Women dropdown is clicked or not</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1596302961775,
+      "stop" : 1596302970914,
+      "duration" : 9139
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownEnvironment",
+    "time" : {
+      "start" : 1596302975044,
+      "stop" : 1596302976412,
+      "duration" : 1368
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnWomenDropdown"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N6RMJT6"
+  }, {
+    "name" : "thread",
+    "value" : "21008@DESKTOP-N6RMJT6.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e858a9249e42855d.json",
+  "parameterValues" : [ ]
+}

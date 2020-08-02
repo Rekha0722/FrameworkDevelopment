@@ -9,12 +9,46 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">48,160</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">88,133</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.shopizer.qa.testcases.HomePageTest</td><td><a href="#m0">verifyHomePageTitle</a></td><td rowspan="1">1595922904193</td><td rowspan="1">636</td></tr><tr class="passedodd"><td rowspan="1">com.shopizer.qa.testcases.LoginLogoutTest</td><td><a href="#m1">verifyLoginUser</a></td><td rowspan="1">1595922912042</td><td rowspan="1">9858</td></tr><tr class="passedeven"><td rowspan="1">com.shopizer.qa.testcases.SignUpTest</td><td><a href="#m2">verifyRegistration</a></td><td rowspan="1">1595922934646</td><td rowspan="1">7879</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.shopizer.qa.testcases.LoginLogoutTest</td><td><a href="#m0">verifyLoginUser</a></td><td rowspan="1">1596363135740</td><td rowspan="1">11838</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.shopizer.qa.testcases.HomePageTest</td><td><a href="#m1">verifyHomePageTitle</a></td><td rowspan="1">1596363125973</td><td rowspan="1">389</td></tr><tr class="passedodd"><td rowspan="1">com.shopizer.qa.testcases.SignUpTest</td><td><a href="#m2">verifyRegistration</a></td><td rowspan="1">1596363172316</td><td rowspan="1">8851</td></tr><tr class="passedeven"><td rowspan="2">com.shopizer.qa.testcases.WomenTestCase</td><td><a href="#m3">clickOnWomenDropdown</a></td><td rowspan="1">1596363108575</td><td rowspan="1">5715</td></tr><tr class="passedeven"><td><a href="#m4">verifyWomenDropDown</a></td><td rowspan="1">1596363159231</td><td rowspan="1">2884</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.shopizer.qa.testcases.HomePageTest#verifyHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.shopizer.qa.testcases.LoginLogoutTest#verifyLoginUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.shopizer.qa.testcases.LoginLogoutTest#verifyLoginUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;CC-loginHeader-login&apos;]&quot;}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;4.0.0-alpha-3&apos;, revision: &apos;8c567de6dc&apos;
+System info: host: &apos;DESKTOP-N6RMJT6&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62848}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d981a385b5e5d8042278d5a5a3f84a66
+*** Element info: {Using=xpath, value=//a[@id=&apos;CC-loginHeader-login&apos;]}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:396)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
+	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.shopizer.qa.pages.HomePage.clickOnSignInLinkFromHomePage(HomePage.java:77)
+	at com.shopizer.qa.testcases.LoginLogoutTest.verifyLoginUser(LoginLogoutTest.java:48)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.shopizer.qa.testcases.HomePageTest#verifyHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.shopizer.qa.testcases.SignUpTest#verifyRegistration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Pramod</td><td>Deshmane</td><td>7972191713</td><td>rekhadeshmane7@gmail.com</td><td>Anaya@143</td><td>Anaya@143</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.shopizer.qa.testcases.WomenTestCase#clickOnWomenDropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.shopizer.qa.testcases.WomenTestCase#verifyWomenDropDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

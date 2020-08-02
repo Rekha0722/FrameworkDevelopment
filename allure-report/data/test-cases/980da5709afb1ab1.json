@@ -1,0 +1,100 @@
+{
+  "uid" : "980da5709afb1ab1",
+  "name" : "Verifying title from Home page",
+  "fullName" : "com.shopizer.qa.testcases.HomePageTest.verifyHomePageTitle",
+  "historyId" : "a38cb5f493c150e5226a02521b95a910",
+  "time" : {
+    "start" : 1596363125979,
+    "stop" : 1596363126364,
+    "duration" : 385
+  },
+  "description" : "verify Title from HomePage",
+  "descriptionHtml" : "<p>verify Title from HomePage</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1596363118810,
+      "stop" : 1596363125972,
+      "duration" : 7162
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownEnvironment",
+    "time" : {
+      "start" : 1596363126374,
+      "stop" : 1596363126750,
+      "duration" : 376
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.shopizer.qa.testcases.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.shopizer.qa.testcases.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyHomePageTitle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.shopizer.qa.testcases.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N6RMJT6"
+  }, {
+    "name" : "thread",
+    "value" : "26292@DESKTOP-N6RMJT6.TestNG-tests-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Shopizer Page Title verification"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "980da5709afb1ab1.json",
+  "parameterValues" : [ ]
+}

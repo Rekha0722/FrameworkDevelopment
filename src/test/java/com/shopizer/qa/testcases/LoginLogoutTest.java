@@ -2,13 +2,21 @@ package com.shopizer.qa.testcases;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.shopizer.qa.allureReportListener.AllureReportListener;
 import com.shopizer.qa.pages.HomePage;
 import com.shopizer.qa.pages.LoginPage;
 import com.shopizer.qa.pages.SignupPage;
 import com.shopizer.qa.testbase.BaseTest;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+
+@Listeners({AllureReportListener.class})
 public class LoginLogoutTest extends BaseTest{
 	
 	LoginPage objLoginPage;
@@ -34,7 +42,10 @@ public class LoginLogoutTest extends BaseTest{
 		this.InitializePages();
 	}
 
-	@Test
+	@Test(priority=1,description="Verifying login ")
+	@Severity(SeverityLevel.BLOCKER)
+	@Description("verify login Page Functionality")
+	@Story("Verify login with registered User NAame")
 	public void verifyLoginUser()
 	{
 		objHomePage.clickOnSignInLinkFromHomePage();

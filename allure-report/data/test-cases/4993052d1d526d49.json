@@ -1,0 +1,126 @@
+{
+  "uid" : "4993052d1d526d49",
+  "name" : "verifying onWomen dropdown from Home Page",
+  "fullName" : "com.shopizer.qa.testcases.WomenTestCase.verifyWomenDropDown",
+  "historyId" : "1b87009afd80929375fec5793d2f6e2c",
+  "time" : {
+    "start" : 1596338438321,
+    "stop" : 1596338440368,
+    "duration" : 2047
+  },
+  "description" : "verifying Women dropdown",
+  "descriptionHtml" : "<p>verifying Women dropdown</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1596338429899,
+      "stop" : 1596338438307,
+      "duration" : 8408
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "verifying Women dropdown",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "verifying women dropdown",
+      "time" : {
+        "start" : 1596338438323,
+        "stop" : 1596338440364,
+        "duration" : 2041
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDownEnvironment",
+    "time" : {
+      "start" : 1596338440370,
+      "stop" : 1596338440454,
+      "duration" : 84
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyWomenDropDown"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N6RMJT6"
+  }, {
+    "name" : "thread",
+    "value" : "23112@DESKTOP-N6RMJT6.TestNG-tests-1(13)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "To check  women text verification"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4993052d1d526d49.json",
+  "parameterValues" : [ ]
+}

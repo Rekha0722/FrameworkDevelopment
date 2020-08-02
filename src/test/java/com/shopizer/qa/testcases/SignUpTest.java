@@ -4,14 +4,16 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-
+import com.shopizer.qa.allureReportListener.AllureReportListener;
 import com.shopizer.qa.pages.HomePage;
 import com.shopizer.qa.pages.SignupPage;
 import com.shopizer.qa.testbase.BaseTest;
 import com.shopizer.qa.utility.TestUtil;
 
+@Listeners({AllureReportListener.class})
 public class SignUpTest extends BaseTest {
 	
 	String sheetName="Sheet1";

@@ -1,0 +1,61 @@
+[ {
+  "uid" : "a537ca99b195319b",
+  "name" : "verifying onWomen dropdown from Home Page",
+  "time" : {
+    "start" : 1596365949308,
+    "stop" : 1596365952342,
+    "duration" : 3034
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93585204b6257b69",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1596302723691,
+    "stop" : 1596302723693,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1d934eb662f962c",
+  "name" : "Clicking onWomen dropdown from Home Page",
+  "time" : {
+    "start" : 1596365896336,
+    "stop" : 1596365900720,
+    "duration" : 4384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4aaae9748bf7e75f",
+  "name" : "Verifying title from Home page",
+  "time" : {
+    "start" : 1596365914737,
+    "stop" : 1596365915209,
+    "duration" : 472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a8befe5d2803d0a",
+  "name" : "verifyRegistration",
+  "time" : {
+    "start" : 1596365962272,
+    "stop" : 1596365971042,
+    "duration" : 8770
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6525aef02a1915a9",
+  "name" : "Verifying login ",
+  "time" : {
+    "start" : 1596365926037,
+    "stop" : 1596365940544,
+    "duration" : 14507
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

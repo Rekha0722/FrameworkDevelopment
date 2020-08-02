@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.shopizer.qa.testbase.BaseTest;
 
+import io.qameta.allure.Step;
+
 
 
 public class LoginPage extends BaseTest {
@@ -30,12 +32,13 @@ public class LoginPage extends BaseTest {
 	
 	
 	
-	
+	@Step("Verify SignInPage Header")
 	public boolean verifySignInPageHeader()
 	{
 		return hdrSignIn.isDisplayed();
 	}
 	
+	@Step("Set Email :{0} and Password :{1}")
 	public void setLoginCredentials()
 	{
 		txtEmail.sendKeys(prop.getProperty("email"));

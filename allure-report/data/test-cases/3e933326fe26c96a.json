@@ -1,0 +1,126 @@
+{
+  "uid" : "3e933326fe26c96a",
+  "name" : "Clicking onWomen dropdown from Home Page",
+  "fullName" : "com.shopizer.qa.testcases.WomenTestCase.clickOnWomenDropdown",
+  "historyId" : "ae10db5317bc25bc0e20f20c7d894588",
+  "time" : {
+    "start" : 1596363108862,
+    "stop" : 1596363114309,
+    "duration" : 5447
+  },
+  "description" : "Check Women dropdown is clicked or not",
+  "descriptionHtml" : "<p>Check Women dropdown is clicked or not</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1596363097417,
+      "stop" : 1596363108220,
+      "duration" : 10803
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Check Women dropdown is clicked or not",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "click on women dropdown",
+      "time" : {
+        "start" : 1596363108959,
+        "stop" : 1596363114290,
+        "duration" : 5331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDownEnvironment",
+    "time" : {
+      "start" : 1596363114337,
+      "stop" : 1596363118778,
+      "duration" : 4441
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnWomenDropdown"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N6RMJT6"
+  }, {
+    "name" : "thread",
+    "value" : "26292@DESKTOP-N6RMJT6.TestNG-tests-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "To check  women dropdown is clicked or not"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e933326fe26c96a.json",
+  "parameterValues" : [ ]
+}

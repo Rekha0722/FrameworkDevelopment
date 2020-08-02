@@ -1,0 +1,97 @@
+{
+  "uid" : "bf82da5aed3191ec",
+  "name" : "verifying onWomen dropdown from Home Page",
+  "fullName" : "com.shopizer.qa.testcases.WomenTestCase.verifyWomenDropDown",
+  "historyId" : "1b87009afd80929375fec5793d2f6e2c",
+  "time" : {
+    "start" : 1596302984488,
+    "stop" : 1596302987657,
+    "duration" : 3169
+  },
+  "description" : "verifying Women dropdown",
+  "descriptionHtml" : "<p>verifying Women dropdown</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1596302976418,
+      "stop" : 1596302984478,
+      "duration" : 8060
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownEnvironment",
+    "time" : {
+      "start" : 1596302987663,
+      "stop" : 1596302987979,
+      "duration" : 316
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyWomenDropDown"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.shopizer.qa.testcases.WomenTestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N6RMJT6"
+  }, {
+    "name" : "thread",
+    "value" : "21008@DESKTOP-N6RMJT6.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf82da5aed3191ec.json",
+  "parameterValues" : [ ]
+}

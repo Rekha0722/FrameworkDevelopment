@@ -1,0 +1,117 @@
+{
+  "3522bea7476707aa56669aae8a670332" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6525aef02a1915a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596365926037,
+        "stop" : 1596365940544,
+        "duration" : 14507
+      }
+    } ]
+  },
+  "1b87009afd80929375fec5793d2f6e2c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a537ca99b195319b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596365949308,
+        "stop" : 1596365952342,
+        "duration" : 3034
+      }
+    } ]
+  },
+  "75957e17b9329fd643ac1825d1cc9d02" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93585204b6257b69",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1596302723691,
+        "stop" : 1596302723693,
+        "duration" : 2
+      }
+    } ]
+  },
+  "a5a61aef31d277dbc1689a4c42e16e49" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a8befe5d2803d0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596365962272,
+        "stop" : 1596365971042,
+        "duration" : 8770
+      }
+    } ]
+  },
+  "a38cb5f493c150e5226a02521b95a910" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4aaae9748bf7e75f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596365914737,
+        "stop" : 1596365915209,
+        "duration" : 472
+      }
+    } ]
+  },
+  "ae10db5317bc25bc0e20f20c7d894588" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1d934eb662f962c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596365896336,
+        "stop" : 1596365900720,
+        "duration" : 4384
+      }
+    } ]
+  }
+}

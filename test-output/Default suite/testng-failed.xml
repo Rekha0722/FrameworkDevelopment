@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.shopizer.qa.testcases.SignUpTest">
+      <class name="com.shopizer.qa.testcases.WomenTestCase">
         <methods>
+          <include name="tearDownEnvironment"/>
           <include name="setUp"/>
-          <include name="verifyRegistration" invocation-numbers="0"/>
+          <include name="clickOnWomenDropdown"/>
+          <include name="verifyWomenDropDown"/>
         </methods>
-      </class> <!-- com.shopizer.qa.testcases.SignUpTest -->
+      </class> <!-- com.shopizer.qa.testcases.WomenTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

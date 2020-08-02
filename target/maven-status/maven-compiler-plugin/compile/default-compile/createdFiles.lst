@@ -1,7 +1,12 @@
-com\shopizer\qa\pages\LoginPage.class
 com\shopizer\qa\testbase\BaseTest.class
+com\shopizer\qa\allureReportListener\AllureReportListener.class
+com\generic\Generic.class
+com\shopizer\qa\retryLogic\RetryLogicFailedTestCases.class
+com\shopizer\qa\pages\SignupPage.class
+com\shopizer\qa\pages\LoginPage.class
+com\generic\WarpperMethods.class
+com\shopizer\qa\retryLogic\MyTransformer.class
 com\shopizer\qa\utility\WebEventListener.class
 com\shopizer\qa\pages\HomePage.class
 com\shopizer\qa\utility\TestUtil.class
 com\shopize\qa\extentReportListener\ExtentReportListener.class
-com\shopizer\qa\pages\SignupPage.class

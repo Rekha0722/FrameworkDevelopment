@@ -1,0 +1,99 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "setUp",
+    "uid" : "93585204b6257b69",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1596302723691,
+      "stop" : 1596302723693,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "To check  women dropdown is clicked or not",
+    "children" : [ {
+      "name" : "Clicking onWomen dropdown from Home Page",
+      "uid" : "a1d934eb662f962c",
+      "parentUid" : "73db55115b27b0aec961f9cf46dbf182",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596365896336,
+        "stop" : 1596365900720,
+        "duration" : 4384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "73db55115b27b0aec961f9cf46dbf182"
+  }, {
+    "name" : "Shopizer Page Title verification",
+    "children" : [ {
+      "name" : "Verifying title from Home page",
+      "uid" : "4aaae9748bf7e75f",
+      "parentUid" : "7b34bfca3542202bb54a30ade173d999",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596365914737,
+        "stop" : 1596365915209,
+        "duration" : 472
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7b34bfca3542202bb54a30ade173d999"
+  }, {
+    "name" : "Verify login with registered User NAame",
+    "children" : [ {
+      "name" : "Verifying login ",
+      "uid" : "6525aef02a1915a9",
+      "parentUid" : "b6bbcdf5c929f7b608e5d119d671fe49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596365926037,
+        "stop" : 1596365940544,
+        "duration" : 14507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b6bbcdf5c929f7b608e5d119d671fe49"
+  }, {
+    "name" : "To check  women text verification",
+    "children" : [ {
+      "name" : "verifying onWomen dropdown from Home Page",
+      "uid" : "a537ca99b195319b",
+      "parentUid" : "a082d5403866df2dc2680425ab56f831",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596365949308,
+        "stop" : 1596365952342,
+        "duration" : 3034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a082d5403866df2dc2680425ab56f831"
+  }, {
+    "name" : "verifyRegistration",
+    "uid" : "4a8befe5d2803d0a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1596365962272,
+      "stop" : 1596365971042,
+      "duration" : 8770
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Pramod", "Deshmane", "7972191713", "rekhadeshmane7@gmail.com", "Anaya@143", "Anaya@143" ]
+  } ]
+}

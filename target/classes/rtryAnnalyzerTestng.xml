@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RetryFailedTestCasesSuit">
+
+<listeners>
+		<listener class-name="com.shopizer.qa.retryLogic.MyTransformer" />
+	</listeners> 
+	
+<test name="RetryMultipleFailedTestsCases">
+    <classes>
+      <class name="com.shopizer.qa.testcases.HomePageTest"/>
+      <class name="com.shopizer.qa.testcases.LoginLogoutTest"/>
+      <class name="com.shopizer.qa.testcases.SignUpTest"/>
+      
+      
+     
+    </classes>
+    </test> 
+   
+   
+</suite>
